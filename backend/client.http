@@ -1,0 +1,17 @@
+### Teste
+GET http://localhost:3000?nome=João
+
+### Somar
+GET http://localhost:3000/operacoes/somar?num1=100&num2=200
+
+### Subtração
+GET http://localhost:3000/operacoes/subtrair?num1=100&num2=200
+
+### Somar com POST
+POST http://localhost:3000/operacoes/somar
+Content-Type: application/json
+
+{
+    "num1": 50,
+    "num2": 40
+}
